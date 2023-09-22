@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Kimetsu no Yaba</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img
+        class="logo"
+        src="./src/imagens/logo-demon-slayer.png"
+        alt="logo demon slayer"/>
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="tanjiro" data-name="Tanjiro" data-description="   Ele é um membro de Kanoe dos Caçadores de Demônios, que se juntou a
+          organização para caçar o responsável pelo assassinato de sua família e
+          a transformação de sua irmã.">
+            <img
+              src="./src/imagens/tanjiro-card.jpg"
+              alt="Personagem Tanjiro"
+            />
+          </li>
+
+          <li class="personagem" id="nezuko" data-name="Nezuko" data-description="Nezuko Kamado é a irmã mais nova de Tanjiro, que foi transformada em oni no ataque de sua familia.">
+            <img src="./src/imagens/nezuko-card.jpg" alt="Personagem Nezuko" />
+          </li>
+
+          <li class="personagem" id="inosuke" data-name="Inosuke" data-description="Inosuke Hashibira é um jovem que utiliza uma máscara de javali e que apenas em poucos momentos aparece sem ela.">
+            <img
+              src="./src/imagens/inosuke-card.jpg"
+              alt="Personagem Inosuke"
+            />
+          </li>
+
+          <li class="personagem" id="zenitsu" data-name="Zenitsu" data-description="Zenitsu Agatsuma é um Caçador de Demônios.Ele é um companheiro de viagem e amigo de Tanjiro Kamado, sendo um dos principais protagonistas.">
+            <img
+              src="./src/imagens/zenitsu-card.jpg "
+              alt="Personagem Zenitsu"
+            />
+          </li>
+
+          <li class="personagem" id="tsuyuri" data-name="Tsuyuri" data-description="Tsuyuri Kanao é uma Caçadora de Demônios, sendo também a irmã adotiva de Kanae Kocho, a Pilar das Flores.">
+            <img
+              src="./src/imagens/tsuyuri-card.jpg"
+              alt="Personagem Tsuyuri"
+            />
+          </li>
+
+          <li class="personagem" id="mitsuri" data-name="Mitsuri" data-description="Mitsuri Kanroji é a hashira do amor, e entrou no Esquadrão pois queria um homem forte que aceitasse e se casasse com ela.">
+            <img
+              src="./src/imagens/mitsuri-kanroji.jpg"
+              alt="Personagem mitsuri"
+            />
+          </li>
+
+          <li class="personagem" id="uzui" data-name="Uzui" data-description="Uzui Tengen é um Caçador de Demônios, sendo o atual Pilar da Som do Corpo de Extermínio de Demônios.">
+            <img src="./src/imagens/tengen-card.jpg" alt="Personagem Uzui" />
+          </li>
+
+          <li class="personagem" id="kyojuro" data-name="Kyojuro" data-description="Kyojuro foi um dos nove Hashira, um grupo dos nove maiores Caçadores de oni do Esquadrão de caçadores de onis.">
+            <img
+              src="./src/imagens/kyojuro-card.jpg"
+              alt="Personagem Kyojuro"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/tanjiro-kamado.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Tanjiro</h2>
+        </div>
+        <p class="descricao-personagem" id="descricao-personagem">
+          Ele é um membro de Kanoe dos Caçadores de Demônios, que se juntou a
+          organização para caçar o responsável pelo assassinato de sua família e
+          a transformação de sua irmã.
+        </p>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

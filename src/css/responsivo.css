@@ -1,0 +1,114 @@
+@media (max-width: 1025px){
+
+    .selecao-de-personagens .lista-de-personagens{
+        gap: 9px;
+    }
+
+
+}
+
+
+
+@media (max-width: 725px){
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+
+    .selecao-de-personagens{
+        flex-direction: column-reverse;
+        max-width: 530px;
+        margin: 0 auto;
+
+    }
+
+    .selecao-de-personagens .personagens{
+        margin-top: 37px;
+    }
+
+    .selecao-de-personagens .personagens .titulo{
+        font-size: 15px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens{
+        gap: 9px;
+    }
+
+    .selecao-de-personagens .personagem img{
+        width: 50px;
+    }
+
+    .personagem-selecionado .personagem-grande{
+        width: 350px;
+        height: 350px;
+    }
+
+    .personagem-selecionado .descricao-personagem{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}
+
+@media(max-width: 576px) {
+    .cabecalho .logo {
+        max-width: 120px;
+    }
+
+    .selecao-personagens {
+        gap: 0;
+        margin-top: 0px;
+    }
+    .selecao-de-personagens .personagens{
+        margin: 0;
+    }
+
+    .lista-personagens .personagem img {
+        width: 40px;
+    }
+
+    .personagem-selecionado .personagem-grande {
+        width: 190px;
+        height: 240px;
+    }
+
+    .personagem-selecionado .descricao-personagem {
+        font-size: 15px;
+    }
+}
+@media(max-width: 410px) {
+    .cabecalho .logo {
+        max-width: 110px;
+    }
+
+    .lista-personagens .personagem img {
+        width: 45px;
+    }
+
+    .personagem-selecionado .personagem-grande {
+        width: 150px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 360px) {
+    .cabecalho .logo {
+        max-width: 90px;
+    }
+
+    .selecao-personagens .personagens .titulo {
+        font-size: 12px;
+    }
+
+    .personagem-selecionado .personagem-maior {
+        width: 120px;
+        height: 150px;
+    }
+
+    .personagem-selecionado .nome-personagem {
+        font-size: 15px;
+    }
+
+    .personagem-selecionado .descricao-personagem {
+        font-size: 13px;
+    }
+}
